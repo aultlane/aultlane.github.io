@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<!-- Mirrored from www.Aultlane.com/tutorial/sqlite by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:46:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQLite Tutorial - Aultlane</title>
+<meta name="description" content="SQLite tutorial for beginners and experienced with examples. In sqlite tutorial we covered a topics like sqlite installation, sqlite datatypes, sqlite functions, sqlite triggers, sqlite queries, sqlite transactions" />
+<meta name="keywords" content="sqlite, sqlite tutorial, learn sqlite, sqlite3, sqlite db, online sqlite tutorial, sqlite create database, free sqlite tutorial, sqlite insert, sqlite3 tutorial, sqlite editor, sqlite exampl" />
+<link rel="canonical" href="sqlite.html" />
+<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+<meta property="og:title" content="SQLite Tutorial - Aultlane" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="sqlite.html" />
+   
+   <link href="../css/minifiedstyle9b1a.css" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+    <div class="container">
+        <div class="header-logo">
+            <a href="../index.html">
+                <img alt="Aultlane Logo" height="54" data-sticky-width="82" data-sticky-height="40" src="../images/logo.png">
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="dhmenu" class="row header-border hidden-print" style="background-color: #1a1c2b;">
+            <div class="col-md-12" style="float:none">
+                <button class="btn header-btn-collapse-nav ml-0 ml-sm-3 hide-menu-btn hamburger-button" data-toggle="collapse" data-target=".header-nav-main nav" aria-expanded="true" id="btnNavMenu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <nav class="nav-main mega-menu header-navbar nav-bar-align-left hide-menu">
+                    <ul class="nav nav-pills nav-main" id="mainMenu" style="margin-bottom:-10px">
+                        <li class="dropdown" id="homelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../index.html"><i class="fa fa-home"></i> Home </a>
+                        </li>
+                        <li class="dropdown" id="tutlist">
+                            <a class="dropdown-toggle nav-bar-align-left-a" href="../tutorials.html"><i class="fa fa-tree"></i> Tutorials <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../tutorials/microsoft-technologies.html" title="Microsoft Technologies Tutorials"><i class="fa fa-windows"></i> Microsoft Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/java-programming.html" title="Java Programming Tutorials"><i class="fa fa-joomla"></i> Java Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/web-designing.html" title="Web Designing Tutorials"><i class="fa fa-paint-brush"></i> Web Designing Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/script-languages.html" title="Script Programming Tutorials"><i class="fa fa-life-ring"></i> Script Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/databases.html" title="Database Programming Tutorials"><i class="fa fa-database"></i> Database Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/mobile-technologies.html" title="Mobile platform tutorials"><i class="fa fa-mobile fa-2x"></i> Mobile Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/other-programming-laguages.html" title="Other programming tutorials"><i class="fa fa-pagelines"></i> Other Programming Tutorials</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="examplelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../examples.html"><i class="fa fa-comments-o"></i> Examples </a>
+
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="articleslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../articles.html"><i class="fa fa-file-text-o"></i> Articles </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="toolslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../tools.html"><i class="fa fa-cogs"></i> Tools </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="newslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../news.html"><i class="fa fa-newspaper-o"></i> News</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<a href="javascript:void(0)" id="scroll_top" style="right: 15px;"><i class="fa fa-angle-up" style="margin-top: 5px;"></i></a>
+  <div id="divtopicwisedetails">
+  <section class="det_wrapper"><div class="container-fluid">
+    <div class="row"><aside class="sidebar col-md-2 hidden-print hide-menu-list" id="topicsMenu"><ul class="nav nav-list detSideNav">
+          <li>
+            <div class="text-center" style="margin-top:6%"><img src="../images/categorylogo/sqlite.png" alt="SQLite tutorial"><h4 class="sidebarHead"><strong>SQLite Tutorial
+                        </strong></h4>
+            </div>
+          </li>
+          <li class="menuselected"><a href="sqlite.html"><i class="fa fa-laptop"> </i><span>SQLite Home</span></a></li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Basics of SQLite</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-introduction"><i class="fa fa-hand-o-right"> </i><span>SQLite Introduction</span></a></li>
+              <li><a href="sqlite/sqlite-installation"><i class="fa fa-hand-o-right"> </i><span>SQLite Installation</span></a></li>
+              <li><a href="sqlite/sqlite-syntax"><i class="fa fa-hand-o-right"> </i><span>SQLite Syntax</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Operations</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-data-types"><i class="fa fa-hand-o-right"> </i><span>SQLite Data Types</span></a></li>
+              <li><a href="sqlite/sqlite-create-database"><i class="fa fa-hand-o-right"> </i><span>SQLite Create Database</span></a></li>
+              <li><a href="sqlite/sqlite-delete-drop-database"><i class="fa fa-hand-o-right"> </i><span>SQLite Delete Database</span></a></li>
+              <li><a href="sqlite/sqlite-attach-database"><i class="fa fa-hand-o-right"> </i><span>SQLite Attach Database</span></a></li>
+              <li><a href="sqlite/sqlite-detach-database"><i class="fa fa-hand-o-right"> </i><span>SQLite Detach Database</span></a></li>
+              <li><a href="sqlite/sqlite-create-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Create Table</span></a></li>
+              <li><a href="sqlite/sqlite-drop-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Drop Table</span></a></li>
+              <li><a href="sqlite/sqlite-alter-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Alter Table</span></a></li>
+              <li><a href="sqlite/sqlite-insert-query"><i class="fa fa-hand-o-right"> </i><span>SQLite Insert</span></a></li>
+              <li><a href="sqlite/sqlite-select-query"><i class="fa fa-hand-o-right"> </i><span>SQLite Select</span></a></li>
+              <li><a href="sqlite/sqlite-where-clause"><i class="fa fa-hand-o-right"> </i><span>SQLite Where</span></a></li>
+              <li><a href="sqlite/sqlite-group-by-clause"><i class="fa fa-hand-o-right"> </i><span>SQLite Group By</span></a></li>
+              <li><a href="sqlite/sqlite-having-clause"><i class="fa fa-hand-o-right"> </i><span>SQLite HAVING</span></a></li>
+              <li><a href="sqlite/sqlite-distinct-keyword"><i class="fa fa-hand-o-right"> </i><span>SQLite Distinct</span></a></li>
+              <li><a href="sqlite/sqlite-order-by-clause"><i class="fa fa-hand-o-right"> </i><span>SQLite Order By</span></a></li>
+              <li><a href="sqlite/sqlite-limit-clause"><i class="fa fa-hand-o-right"> </i><span>SQLite Limit Clause</span></a></li>
+              <li><a href="sqlite/sqlite-in-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite IN</span></a></li>
+              <li><a href="sqlite/sqlite-not-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite Not</span></a></li>
+              <li><a href="sqlite/sqlite-union-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite Union</span></a></li>
+              <li><a href="sqlite/sqlite-union-all-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite UNION ALL</span></a></li>
+              <li><a href="sqlite/sqlite-glob-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite GLOB</span></a></li>
+              <li><a href="sqlite/sqlite-like-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite LIKE</span></a></li>
+              <li><a href="sqlite/sqlite-update-statement"><i class="fa fa-hand-o-right"> </i><span>SQLite Update</span></a></li>
+              <li><a href="sqlite/sqlite-delete-statement"><i class="fa fa-hand-o-right"> </i><span>SQLite Delete</span></a></li>
+              <li><a href="sqlite/sqlite-and-or-operators"><i class="fa fa-hand-o-right"> </i><span>SQLite AND &amp; OR</span></a></li>
+              <li><a href="sqlite/sqlite-operators"><i class="fa fa-hand-o-right"> </i><span>SQLite Operators</span></a></li>
+              <li><a href="sqlite/sqlite-expressions"><i class="fa fa-hand-o-right"> </i><span>SQLite Expressions</span></a></li>
+              <li><a href="sqlite/sqlite-case-statement"><i class="fa fa-hand-o-right"> </i><span>SQLite Case</span></a></li>
+              <li><a href="sqlite/sqlite-virtual-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Virtual Table</span></a></li>
+              <li><a href="sqlite/sqlite-replace-statement"><i class="fa fa-hand-o-right"> </i><span>SQLite Replace</span></a></li>
+              <li><a href="sqlite/sqlite-null-is-null-values"><i class="fa fa-hand-o-right"> </i><span>SQLite Null (Is Null)</span></a></li>
+              <li><a href="sqlite/sqlite-except-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite Except</span></a></li>
+              <li><a href="sqlite/sqlite-between-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite Between</span></a></li>
+              <li><a href="sqlite/sqlite-intersect-operator"><i class="fa fa-hand-o-right"> </i><span>SQLite Intersect</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Joins in SQLite</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-joins"><i class="fa fa-hand-o-right"> </i><span>SQLite Joins</span></a></li>
+              <li><a href="sqlite/sqlite-inner-join"><i class="fa fa-hand-o-right"> </i><span>SQLite Inner Join</span></a></li>
+              <li><a href="sqlite/sqlite-cross-join"><i class="fa fa-hand-o-right"> </i><span>SQLite Cross Join</span></a></li>
+              <li><a href="sqlite/sqlite-left-outer-join"><i class="fa fa-hand-o-right"> </i><span>SQLite Left Outer Join</span></a></li>
+              <li><a href="sqlite/sqlite-self-join"><i class="fa fa-hand-o-right"> </i><span>SQLite Self Join</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite DateTime Functions</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-date-and-time-functions"><i class="fa fa-hand-o-right"> </i><span>SQLte Date and Time</span></a></li>
+              <li><a href="sqlite/sqlite-date-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Date()</span></a></li>
+              <li><a href="sqlite/sqlite-time-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Time()</span></a></li>
+              <li><a href="sqlite/sqlite-datetime-function"><i class="fa fa-hand-o-right"> </i><span>SQLite DateTime()</span></a></li>
+              <li><a href="sqlite/sqlite-julianday-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Julianday()</span></a></li>
+              <li><a href="sqlite/sqlite-strftime-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Strftime()</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Constraints in SQLite</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-constraints"><i class="fa fa-hand-o-right"> </i><span>SQLite Constraints</span></a></li>
+              <li><a href="sqlite/sqlite-not-null-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Not Null Constraint</span></a></li>
+              <li><a href="sqlite/sqlite-unique-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Unique Constraint</span></a></li>
+              <li><a href="sqlite/sqlite-primary-key-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Primary Key Constraint</span></a></li>
+              <li><a href="sqlite/sqlite-foreign-key-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Foreign Key</span></a></li>
+              <li><a href="sqlite/sqlite-check-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Check Constraint</span></a></li>
+              <li><a href="sqlite/sqlite-default-constraint"><i class="fa fa-hand-o-right"> </i><span>SQLite Default Constraint</span></a></li>
+              <li><a href="sqlite/sqlite-auto-increment"><i class="fa fa-hand-o-right"> </i><span>SQLite Auto Increment</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Advanced SQLite</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-subqueries"><i class="fa fa-hand-o-right"> </i><span>SQLite Subqueries</span></a></li>
+              <li><a href="sqlite/sqlite-injection-attacks"><i class="fa fa-hand-o-right"> </i><span>SQLite Injection</span></a></li>
+              <li><a href="sqlite/sqlite-views"><i class="fa fa-hand-o-right"> </i><span>SQLite Views</span></a></li>
+              <li><a href="sqlite/sqlite-indexes"><i class="fa fa-hand-o-right"> </i><span>SQLite Indexes</span></a></li>
+              <li><a href="sqlite/sqlite-indexed-by"><i class="fa fa-hand-o-right"> </i><span>SQLite Indexed By</span></a></li>
+              <li><a href="sqlite/sqlite-triggers"><i class="fa fa-hand-o-right"> </i><span>SQLite Triggers</span></a></li>
+              <li><a href="sqlite/sqlite-truncate-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Truncate</span></a></li>
+              <li><a href="sqlite/sqlite-vacuum"><i class="fa fa-hand-o-right"> </i><span>SQLite Vacuum</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Aggregate Functions</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-avg-function"><i class="fa fa-hand-o-right"> </i><span>SQLite AVG()</span></a></li>
+              <li><a href="sqlite/sqlite-count-function"><i class="fa fa-hand-o-right"> </i><span>SQLite COUNT()</span></a></li>
+              <li><a href="sqlite/sqlite-max-function"><i class="fa fa-hand-o-right"> </i><span>SQLite MAX()</span></a></li>
+              <li><a href="sqlite/sqlite-min-function"><i class="fa fa-hand-o-right"> </i><span>SQLite MIN()</span></a></li>
+              <li><a href="sqlite/sqlite-sum-function"><i class="fa fa-hand-o-right"> </i><span>SQLite SUM()</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite String Functions</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-substr-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Substr()</span></a></li>
+              <li><a href="sqlite/sqlite-trim-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Trim()</span></a></li>
+              <li><a href="sqlite/sqlite-ltrim-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Ltrim()</span></a></li>
+              <li><a href="sqlite/sqlite-rtrim-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Rtrim()</span></a></li>
+              <li><a href="sqlite/sqlite-length-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Length()</span></a></li>
+              <li><a href="sqlite/sqlite-replace-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Replace()</span></a></li>
+              <li><a href="sqlite/sqlite-upper-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Upper()</span></a></li>
+              <li><a href="sqlite/sqlite-lower-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Lower()</span></a></li>
+              <li><a href="sqlite/sqlite-instr-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Instr()</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Control Flow Functions</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-coalesce-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Coalesce()</span></a></li>
+              <li><a href="sqlite/sqlite-nullif-function"><i class="fa fa-hand-o-right"> </i><span>SQLite NullIf()</span></a></li>
+              <li><a href="sqlite/sqlite-ifnull-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Ifnull()</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Math Functions</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-abs-function"><i class="fa fa-hand-o-right"> </i><span>SQLite ABS()</span></a></li>
+              <li><a href="sqlite/sqlite-random-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Random()</span></a></li>
+              <li><a href="sqlite/sqlite-round-function"><i class="fa fa-hand-o-right"> </i><span>SQLite Round()</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Command Line Tools</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-commands"><i class="fa fa-hand-o-right"> </i><span>SQLite Commands</span></a></li>
+              <li><a href="sqlite/sqlite-dump-command"><i class="fa fa-hand-o-right"> </i><span>SQLite Dump Command</span></a></li>
+              <li><a href="sqlite/sqlite-import-data-from-csv-file-to-table"><i class="fa fa-hand-o-right"> </i><span>SQLite Import CSV</span></a></li>
+              <li><a href="sqlite/sqlite-export-data-from-table-to-csv-file"><i class="fa fa-hand-o-right"> </i><span>SQLite Export CSV</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Transactions Control</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-acid-transactions"><i class="fa fa-hand-o-right"> </i><span>SQLite ACID Transactions</span></a></li>
+              <li><a href="sqlite/sqlite-transactions-begin-commit-rollback"><i class="fa fa-hand-o-right"> </i><span>SQLite Transactions</span></a></li>
+              <li><a href="sqlite/sqlite-save-points"><i class="fa fa-hand-o-right"> </i><span>SQLite Save Points</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>SQLite Interfaces</span></a><ul class="subList">
+              <li><a href="sqlite/sqlite-java-tutorial"><i class="fa fa-hand-o-right"> </i><span>SQLite JAVA</span></a></li>
+              <li><a href="sqlite/sqlite-php-tutorial"><i class="fa fa-hand-o-right"> </i><span>SQLite PHP</span></a></li>
+              <li><a href="sqlite/sqlite-python-tutorial"><i class="fa fa-hand-o-right"> </i><span>SQLite Python</span></a></li>
+            </ul>
+          </li>
+        </ul></aside><div class="detSection col-md-7">
+        <div class="topicHead">
+          <h1>SQLite Tutorial</h1>
+        </div>
+        <div class="row topicHead">
+          <div class="col-md-12 col-sm-12 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="8014928417" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row topiccontent">
+          <div class="col-md-12 col-sm-12"><div id="divoverview">
+<p>Here we will learn SQLite tutorial with examples. In SQLite tutorial, we covered topics like <a title="SQLite Installation with Examples" href="sqlite/sqlite-installation" target="_blank">sqlite installation</a>, <a title="SQLite Joins with Examples" href="sqlite/sqlite-joins" target="_blank">sqlite joins</a>, <a title="SQLite Functions with Examples" href="sqlite/sqlite-avg-function" target="_blank">sqlite functions</a>, <a title="SQLite Triggers with Examples" href="sqlite/sqlite-triggers" target="_blank">sqlite triggers</a>, <a title="SQLite Views with Examples" href="sqlite/sqlite-views" target="_blank">sqlite views</a>, etc. for beginners and experienced with examples. </p>
+<h2>SQLite Tutorial</h2>
+</div>
+<p><strong>SQLite</strong> can be considered as a “<strong>lighter</strong>” version of other complex RDBMS (Oracle etc.), where its DB engine is configured for independent processing (in-process library), i.e. a server-less, self-contained, zero-configuration and transactional. It is generally embedded into any of the end programs or applications, unlike other RDBMS, where the client-server DB engine is configured. The storage is locally stored on a single disk file, reading and writing are performed on the disk file directly. </p>
+<p> </p>
+<p>In SQLite tutorial, we covered topics from basic to advanced level, those are</p>
+<p> </p>
+<ol>
+<li><a title="SQLite Installation with Example" href="sqlite/sqlite-installation" target="_blank"><span style="line-height: 22px;">SQLite Installation</span></a></li>
+<li><a title="SQLite Data Types with Examples" href="sqlite/sqlite-data-types" target="_blank"><span style="line-height: 22px;">SQLite Datatypes</span></a></li>
+<li><a title="Basic SQLite Query Operations with Examples" href="sqlite/sqlite-syntax" target="_blank"><span style="line-height: 22px;">SQLite Query Operations</span></a></li>
+<li><a title="SQLite Date and Time Functions" href="sqlite/sqlite-date-and-time-functions" target="_blank"><span style="line-height: 22px;">SQLite Functions</span></a></li>
+<li><a title="SQLite Transactions with Examples" href="sqlite/sqlite-transactions-begin-commit-rollback" target="_blank"><span style="line-height: 22px;">SQLite Transactions</span></a></li>
+<li><a title="SQLite Injection Attacks with Examples" href="sqlite/sqlite-injection-attacks" target="_blank">SQLite Injection Attacks</a></li>
+<li><a title="SQLite Operators with Examples" href="sqlite/sqlite-operators" target="_blank"><span style="line-height: 22px;">SQLite Operators</span></a></li>
+<li><a title="SQLite Joins with Examples" href="sqlite/sqlite-joins" target="_blank"><span style="line-height: 22px;">SQLite Joins</span></a></li>
+<li><a title="SQLite Save Points with Examples" href="sqlite/sqlite-save-points" target="_blank">SQLite Save Points</a>…and many more topics in SQLite.</li>
+</ol>
+<div id="divaudience">
+<h2>Audience</h2>
+</div>
+<p>SQLite tutorial is targeted for beginners as well as experienced people who are having a basic knowledge of RDMBS and Databases. In SQLite tutorial, we covered all the topics from basic to advanced level and it will give a clear idea to use SQLite DB in applications with examples.</p>
+<div id="divprereq">
+<h2>Prerequisites</h2>
+</div>
+<p>Before proceeding with the SQLite tutorial, you should have some basic knowledge on database programming and RDBMS then it will be effortless for you to understand SQLite topics.</p></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row hidden-print previous-next">
+          <div class="col-md-6 col-sm-6">
+                             
+                          </div>
+          <div class="col-md-5 col-sm-5 text-right next-class"><a class="btn btn-primary" href="sqlite/sqlite-introduction" title="SQLite Introduction">
+                            Next <i class="fa fa-arrow-right"> </i></a>
+                           
+                        </div>
+        </div>
+      </div>
+      <div class="col-md-3 hidden-xs hidden-sm hidden-print">
+        <h3>Topics Covered</h3>
+        <hr>
+        <ul class="list list-icons  list-borders">
+          <li><a href="#divoverview" class="scroll" title="SQLite Tutorial Overview">SQLite Tutorial Overview</a></li>
+          <li><a href="#divaudience" class="scroll" title="SQLite Tutorial Targeted Audience">SQLite Tutorial Targeted Audience</a></li>
+          <li><a href="#divprereq" class="scroll" title="SQLite Tutorial Requirements">SQLite Tutorial Requirements</a></li>
+        </ul>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-rct" data-ad-client="ca-pub-4761500786576152" data-ad-slot="6469615448"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-skyscrap" data-ad-client="ca-pub-4761500786576152" data-ad-slot="3124805379"></ins><script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+      </div>
+    </div>
+  </div></section>
+  
+  </div>
+      <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <div class="fItemsHead">
+                    Contact Us
+                </div>
+                <ul class="fItems">
+                    <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> Samahni Bhimber 10040 AJK, Pakistan</li>
+                     <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:oyehamza120@gmail.com">Aultlane</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 hidden-print">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Tutorials
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../tutorials/web-designing/index.html">Web Designing Tutorials</a></li>
+                            <li><a href="../tutorials/microsoft-technologies/index.html">.NET Tutorials</a></li>
+                            <li><a href="../tutorials/java-programming/index.html">JAVA Tutorials</a></li>
+                            <li><a href="../tutorials/databases/index.html">Database Tutorials</a></li>
+                        </ul>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Company
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../about.html">About Us</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                             <li><a href="../terms/faqs.html">FAQ's</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Examples
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../example/angularjs.html">AngularJS Examples</a></li>
+                            <li><a href="../example/javascript.html">JavaScript Examples</a></li>
+                            <li><a href="../example/jquery.html">jQuery Examples</a></li>
+                            <li><a href="../example/css.html">CSS Examples</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Resources
+                        </div>
+                        <ul class="fItems">
+                             <li><a href="../articles.html">Articles</a></li>
+                            <li><a href="../news.html">News</a></li>
+                         </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright hidden-print">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="col-md-7">
+                        <p><i class="fa fa-copyright"></i> Aultlane 2021 | <a href="../terms/terms-and-conditions.html">Terms and Conditions</a> | <a href="../terms/privacy-policy.html"> Privacy Policy</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+
+                         <ul class="social-icons text-right">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/uppincllc" target="_blank" title="Aultlane Facebook Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-facebook"></i></span></a></li>
+								<li class="social-icons-twitter"><a href="https://twitter.com/UppInc_de" target="_blank" title="Aultlane Twitter Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-twitter"></i></span></a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window, document, 'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72653230-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+     
+    <input type="hidden" id="hdntitle" value="home" />
+    <input type="hidden" id="hdncategory" value="sqlite" />
+    <script src="../scripts/minifiedAultlaneb26c.js"></script>
+   
+    <script>
+          $(function () {
+              Changemenu('tutlist')
+               CheckUserLogin();
+           });
+	</script>
+    
+</body>
+
+<!-- Mirrored from www.Aultlane.com/tutorial/sqlite by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:46:07 GMT -->
+</html>

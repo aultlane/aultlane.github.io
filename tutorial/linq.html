@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<!-- Mirrored from www.Aultlane.com/tutorial/linq by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:24:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LINQ Tutorial - Aultlane</title>
+<meta name="description" content="Linq tutorial for beginners and experienced with examples. In linq tutorial we covered a topics like linq lambda expressions, aggregate functions, operators. linq grouping, linq to sql, linq to xml, linq to ado.net, etc." />
+<meta name="keywords" content="linq, linq tutorial, linq c#, linq c# tutorial, linq to sql c#, linq c# examples, learn linq, linq c# step by step, c# tutorial, c#, sql to linq c#, linq tutorial pdf, linq for beginners" />
+<link rel="canonical" href="linq.html" />
+<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+<meta property="og:title" content="LINQ Tutorial - Aultlane" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="linq.html" />
+   
+   <link href="../css/minifiedstyle9b1a.css" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+    <div class="container">
+        <div class="header-logo">
+            <a href="../index.html">
+                <img alt="Aultlane Logo" height="54" data-sticky-width="82" data-sticky-height="40" src="../images/logo.png">
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="dhmenu" class="row header-border hidden-print" style="background-color: #1a1c2b;">
+            <div class="col-md-12" style="float:none">
+                <button class="btn header-btn-collapse-nav ml-0 ml-sm-3 hide-menu-btn hamburger-button" data-toggle="collapse" data-target=".header-nav-main nav" aria-expanded="true" id="btnNavMenu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <nav class="nav-main mega-menu header-navbar nav-bar-align-left hide-menu">
+                    <ul class="nav nav-pills nav-main" id="mainMenu" style="margin-bottom:-10px">
+                        <li class="dropdown" id="homelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../index.html"><i class="fa fa-home"></i> Home </a>
+                        </li>
+                        <li class="dropdown" id="tutlist">
+                            <a class="dropdown-toggle nav-bar-align-left-a" href="../tutorials.html"><i class="fa fa-tree"></i> Tutorials <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../tutorials/microsoft-technologies.html" title="Microsoft Technologies Tutorials"><i class="fa fa-windows"></i> Microsoft Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/java-programming.html" title="Java Programming Tutorials"><i class="fa fa-joomla"></i> Java Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/web-designing.html" title="Web Designing Tutorials"><i class="fa fa-paint-brush"></i> Web Designing Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/script-languages.html" title="Script Programming Tutorials"><i class="fa fa-life-ring"></i> Script Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/databases.html" title="Database Programming Tutorials"><i class="fa fa-database"></i> Database Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/mobile-technologies.html" title="Mobile platform tutorials"><i class="fa fa-mobile fa-2x"></i> Mobile Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/other-programming-laguages.html" title="Other programming tutorials"><i class="fa fa-pagelines"></i> Other Programming Tutorials</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="examplelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../examples.html"><i class="fa fa-comments-o"></i> Examples </a>
+
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="articleslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../articles.html"><i class="fa fa-file-text-o"></i> Articles </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="toolslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../tools.html"><i class="fa fa-cogs"></i> Tools </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="newslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../news.html"><i class="fa fa-newspaper-o"></i> News</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<a href="javascript:void(0)" id="scroll_top" style="right: 15px;"><i class="fa fa-angle-up" style="margin-top: 5px;"></i></a>
+  <div id="divtopicwisedetails">
+  <section class="det_wrapper"><div class="container-fluid">
+    <div class="row"><aside class="sidebar col-md-2 hidden-print hide-menu-list" id="topicsMenu"><ul class="nav nav-list detSideNav">
+          <li>
+            <div class="text-center" style="margin-top:6%"><img src="../images/categorylogo/linq.png" alt="LINQ tutorial"><h4 class="sidebarHead"><strong>LINQ Tutorial
+                        </strong></h4>
+            </div>
+          </li>
+          <li class="menuselected"><a href="linq.html"><i class="fa fa-laptop"> </i><span>LINQ Home</span></a></li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Basics of LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-introduction-what-is-linq-why-we-use-linq.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Introduction</span></a></li>
+              <li><a href="linq/linq-syntax-query-syntax-method-syntax.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Syntax</span></a></li>
+              <li><a href="linq/linq-lambda-expressions.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Lambda Expressions</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>LINQ Aggregate Functions</span></a><ul class="subList">
+              <li><a href="linq/linq-min-function-to-get-minimum-value-from-list.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Min Function</span></a></li>
+              <li><a href="linq/linq-max-function-to-get-maximum-value-from-list.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Max() Function</span></a></li>
+              <li><a href="linq/linq-sum-function-to-sum-up-collection-items.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Sum() Function</span></a></li>
+              <li><a href="linq/linq-count-function-to-count-items-in-list.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Count() Function</span></a></li>
+              <li><a href="linq/linq-average-function-to-get-average-of-items-in-list.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Average() Function</span></a></li>
+              <li><a href="linq/linq-aggregate-function-with-example.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Aggregate() Function</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Projection Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-projection-operators-select-selectmany.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Projection Operators</span></a></li>
+              <li><a href="linq/linq-select-projection-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Select Operator</span></a></li>
+              <li><a href="linq/linq-selectmany-projection-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ SelectMany Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>LINQ Filtering Operators</span></a><ul class="subList">
+              <li><a href="linq/linq-where-clause-filtering-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Where Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Sorting Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-sorting-operators-order-by-then-by-reverse.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Sorting Operators</span></a></li>
+              <li><a href="linq/linq-orderby-operator-ascending.html"><i class="fa fa-hand-o-right"> </i><span>LINQ OrderBy Operator</span></a></li>
+              <li><a href="linq/linq-orderbydescending-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ OrderByDescending</span></a></li>
+              <li><a href="linq/linq-thenby-sorting-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ThenBy Operator</span></a></li>
+              <li><a href="linq/linq-thenbydescending-sorting-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ThenByDescending</span></a></li>
+              <li><a href="linq/linq-reverse-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Reverse Method</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Partition Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-partition-operators-take-skip-takewhile-skipwhile.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Partition Operators</span></a></li>
+              <li><a href="linq/linq-take-partition-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Take Operator</span></a></li>
+              <li><a href="linq/linq-takewhile-partition-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ TakeWhile Operator</span></a></li>
+              <li><a href="linq/linq-skip-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Skip Operator</span></a></li>
+              <li><a href="linq/linq-skipwhile-partition-operator.html"><i class="fa fa-hand-o-right"> </i><span>LINQ SkipWhile Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Conversion Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-conversion-operators-tolist-toarray-tolookup-cast-oftype.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Conversion Operators</span></a></li>
+              <li><a href="linq/linq-tolist-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ToList Operator</span></a></li>
+              <li><a href="linq/linq-toarray-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ToArray Operator</span></a></li>
+              <li><a href="linq/linq-tolookup-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ToLookup Operator</span></a></li>
+              <li><a href="linq/linq-cast-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Cast Operator</span></a></li>
+              <li><a href="linq/linq-oftype-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ OfType Operator</span></a></li>
+              <li><a href="linq/linq-asenumerable-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ AsEnumerable Operator</span></a></li>
+              <li><a href="linq/linq-asqueryable-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ AsQueryable Operator</span></a></li>
+              <li><a href="linq/linq-todictionary-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ToDictionary Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Element Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-element-operators-firstordefault-last-elementat-singleordefault.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Element Operators</span></a></li>
+              <li><a href="linq/linq-first-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ First Operator</span></a></li>
+              <li><a href="linq/linq-firstordefault-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ FirstOrDefault Operator</span></a></li>
+              <li><a href="linq/linq-last-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Last Operator</span></a></li>
+              <li><a href="linq/linq-lastordefault-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ LastOrDefault() Operator</span></a></li>
+              <li><a href="linq/linq-elementat-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ElementAt Operator</span></a></li>
+              <li><a href="linq/linq-elementatordefault-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ ElementAtOrDefault</span></a></li>
+              <li><a href="linq/linq-single-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Single Operator</span></a></li>
+              <li><a href="linq/linq-singleordefault-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ SingleOrDefault</span></a></li>
+              <li><a href="linq/linq-defaultifempty-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ DefaultIfEmpty</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Grouping Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-groupby-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ GroupBy Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Join Operators in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-join-operators-inner-join-left-join-group-join-cross-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Join Operators</span></a></li>
+              <li><a href="linq/linq-inner-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Inner Join</span></a></li>
+              <li><a href="linq/linq-left-outer-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Left Join</span></a></li>
+              <li><a href="linq/linq-cross-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Cross Join</span></a></li>
+              <li><a href="linq/linq-group-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Group Join</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Set Operations in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-set-operations-distinct-union-intersect-except.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Set Operations</span></a></li>
+              <li><a href="linq/linq-union-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Union Method</span></a></li>
+              <li><a href="linq/linq-intersect-method.html"><i class="fa fa-hand-o-right"> </i><span>Linq Intersect Method</span></a></li>
+              <li><a href="linq/linq-distinct-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Distinct Method</span></a></li>
+              <li><a href="linq/linq-except-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Except Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Equality Operations in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-sequenceequal-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ SequenceEqual Method</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Concat Operations in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-concat-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Concat Method</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Generation Operations in LINQ</span></a><ul class="subList">
+              <li><a href="linq/linq-generation-operations.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Generation Operators</span></a></li>
+              <li><a href="linq/linq-range-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Range Operator</span></a></li>
+              <li><a href="linq/linq-repeat-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Repeat Operator</span></a></li>
+              <li><a href="linq/linq-empty-method.html"><i class="fa fa-hand-o-right"> </i><span>LINQ Empty Operator</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>LINQ with Objects</span></a><ul class="subList">
+              <li><a href="linq/linq-to-objects.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Objects</span></a></li>
+              <li><a href="linq/linq-to-strings.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Strings</span></a></li>
+              <li><a href="linq/linq-to-string-array.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to String Array</span></a></li>
+              <li><a href="linq/linq-to-int-array.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Int Array</span></a></li>
+              <li><a href="linq/linq-to-file-directories.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Files</span></a></li>
+              <li><a href="linq/linq-to-lists-collections.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Lists</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>LINQ with SQL</span></a><ul class="subList">
+              <li><a href="linq/linq-to-sql-dbml-file.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL</span></a></li>
+              <li><a href="linq/linq-to-sql-select-query.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Select</span></a></li>
+              <li><a href="linq/linq-to-sql-inner-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Inner Join</span></a></li>
+              <li><a href="linq/linq-to-sql-group-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Group Join</span></a></li>
+              <li><a href="linq/linq-to-sql-left-outer-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Left Join</span></a></li>
+              <li><a href="linq/linq-to-sql-cross-join.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Cross Join</span></a></li>
+              <li><a href="linq/linq-to-sql-like-contains-startwith-endswith.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Like Operator</span></a></li>
+              <li><a href="linq/linq-to-sql-insert-update-delete-operations.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL CRUD Operations</span></a></li>
+              <li><a href="linq/linq-to-sql-stored-procedure.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to SQL Stored Proc</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>LINQ with ADO.NET</span></a><ul class="subList">
+              <li><a href="linq/linq-to-ado-net.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to ADO.NET</span></a></li>
+              <li><a href="linq/linq-to-dataset.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Dataset</span></a></li>
+              <li><a href="linq/linq-to-entities.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to Entities</span></a></li>
+              <li><a href="linq/linq-to-xml.html"><i class="fa fa-hand-o-right"> </i><span>LINQ to XML</span></a></li>
+              <li><a href="linq/plinq-parallel-linq.html"><i class="fa fa-hand-o-right"> </i><span>Parallel LINQ</span></a></li>
+            </ul>
+          </li>
+        </ul></aside><div class="detSection col-md-7">
+        <div class="topicHead">
+          <h1>LINQ Tutorial</h1>
+        </div>
+        <div class="row topicHead">
+          <div class="col-md-12 col-sm-12 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="8014928417" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row topiccontent">
+          <div class="col-md-12 col-sm-12"><p>Here we will learn the complete LINQ tutorial with examples. In LINQ tutorial, we covered all topics like LINQ to SQL, LINQ to XML, LINQ to Objects, LINQ to lists, etc. in a detailed manner with examples.</p>
+<h2 id="divlinqoverview">LINQ Tutorial Overview</h2>
+<p>LINQ means <code>Language Integrated Query</code> It was introduced in .NET Framework 3.5 to query the data from different data sources such as <a title="Collections in C# with Examples" href="csharp/csharp-collections.html" target="_blank">collections</a>, <a title="Generics in C# with Examples" href="csharp/csharp-generics.html" target="_blank">generics</a>, XML Documents, ADO.NET Datasets, <a title="Learn SQL with Examples" href="sql-server.html" target="_blank">SQL</a>, Web Service, etc. <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a> and VB.NET. </p>
+<p> </p>
+<p>In LINQ tutorial, we covered complete topics from basic to advanced level; those are </p>
+<p> </p>
+<ol>
+<li><a title="Introduction to LINQ Tutorial" href="linq/linq-introduction-what-is-linq-why-we-use-linq.html" target="_blank"><span style="line-height: 22px;">LINQ Introduction</span></a></li>
+<li><a title="Lambda Expressions in LINQ with Examples" href="linq/linq-lambda-expressions.html" target="_blank"><span style="line-height: 22px;">LINQ Lambda Expressions</span></a></li>
+<li><a title="Aggregate Functions in LINQ with Examples" href="linq/linq-min-function-to-get-minimum-value-from-list.html" target="_blank"><span style="line-height: 22px;">LINQ Aggregate Functions</span></a></li>
+<li><a title="Operators in LINQ with Examples" href="linq/linq-projection-operators-select-selectmany.html" target="_blank"><span style="line-height: 22px;">LINQ Operators</span></a></li>
+<li><a title="LINQ Group By Method with Examples" href="linq/linq-groupby-method.html" target="_blank"><span style="line-height: 22px;">LINQ Grouping</span></a></li>
+<li><a title="Joins in LINQ with Examples" href="linq/linq-join-operators-inner-join-left-join-group-join-cross-join.html" target="_blank"><span style="line-height: 22px;">Joins using LINQ</span></a></li>
+<li><a title="LINQ to Objects with Examples" href="linq/linq-to-objects.html" target="_blank"><span style="line-height: 22px;">LINQ to Objects</span></a></li>
+<li><a title="LINQ to SQL with Examples" href="linq/linq-to-sql-dbml-file.html" target="_blank"><span style="line-height: 22px;">LINQ to SQL</span></a></li>
+<li><a title="LINQ to ADO.NET with Examples" href="linq/linq-to-ado-net.html" target="_blank"><span style="line-height: 22px;">LINQ to ADO.NET</span></a></li>
+<li><a title="LINQ to Dataset with Examples" href="linq/linq-to-dataset.html" target="_blank"><span style="line-height: 22px;">LINQ to Dataset</span></a></li>
+<li><span style="line-height: 22px;"><a title="LINQ to XML with Examples" href="linq/linq-to-xml.html" target="_blank">LINQ to XML</a>…and many more topics in LINQ.</span></li>
+</ol>
+<h2 id="divlinqaudience">Targeted Audience</h2>
+<p>LINQ tutorial is targeted at beginners and experienced people who can implement applications using <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a> or <a title="VB.NET Tutorial with Examples" href="visual-basic.html" target="_blank">VB.NET</a>. In LINQ tutorial, we covered all topics from basic to advanced level, and it will give a clear idea on how to use LINQ in our applications with live examples.</p>
+<h2 id="divlinqprereq">Prerequisites</h2>
+<p>Before proceeding with the LINQ tutorial, you need to have the knowledge to implement applications using .NET Framework with <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a> or <a title="VB.NET Tutorial with Examples" href="visual-basic.html" target="_blank">VB.NET</a> because the LINQ operations can be performed either in <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a> or <a title="VB.NET Tutorial with Examples" href="visual-basic.html" target="_blank">VB.NET</a>. If you are not aware of <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a> or <a title="VB.NET Tutorial with Examples" href="visual-basic.html" target="_blank">VB.NET</a>, then check out our <a title="Learn C# Online with Examples" href="csharp.html" target="_blank">C#</a>, <a title="VB.NET Tutorial with Examples" href="visual-basic.html" target="_blank">VB.NET</a> tutorials, and you need to have visual studio software installed in your system.</p></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row hidden-print previous-next">
+          <div class="col-md-6 col-sm-6">
+                             
+                          </div>
+          <div class="col-md-5 col-sm-5 text-right next-class"><a class="btn btn-primary" href="linq/linq-introduction-what-is-linq-why-we-use-linq.html" title="LINQ Introduction">
+                            Next <i class="fa fa-arrow-right"> </i></a>
+                           
+                        </div>
+        </div>
+      </div>
+      <div class="col-md-3 hidden-xs hidden-sm hidden-print">
+        <h3>Topics Covered</h3>
+        <hr>
+        <ul class="list list-icons  list-borders">
+          <li><a href="#divlinqoverview" class="scroll" title="LINQ Tutorial Overview">LINQ Tutorial Overview</a></li>
+          <li><a href="#divlinqaudience" class="scroll" title="LINQ Tutorial Targeted Audience">LINQ Tutorial Targeted Audience</a></li>
+          <li><a href="#divlinqprereq" class="scroll" title="LINQ Tutorial Requirements">LINQ Tutorial Requirements</a></li>
+        </ul>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-rct" data-ad-client="ca-pub-4761500786576152" data-ad-slot="6469615448"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-skyscrap" data-ad-client="ca-pub-4761500786576152" data-ad-slot="3124805379"></ins><script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+      </div>
+    </div>
+  </div></section>
+  
+  </div>
+      <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <div class="fItemsHead">
+                    Contact Us
+                </div>
+                <ul class="fItems">
+                    <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> Samahni Bhimber 10040 AJK, Pakistan</li>
+                     <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:oyehamza120@gmail.com">Aultlane</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 hidden-print">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Tutorials
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../tutorials/web-designing/index.html">Web Designing Tutorials</a></li>
+                            <li><a href="../tutorials/microsoft-technologies/index.html">.NET Tutorials</a></li>
+                            <li><a href="../tutorials/java-programming/index.html">JAVA Tutorials</a></li>
+                            <li><a href="../tutorials/databases/index.html">Database Tutorials</a></li>
+                        </ul>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Company
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../about.html">About Us</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                             <li><a href="../terms/faqs.html">FAQ's</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Examples
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../example/angularjs.html">AngularJS Examples</a></li>
+                            <li><a href="../example/javascript.html">JavaScript Examples</a></li>
+                            <li><a href="../example/jquery.html">jQuery Examples</a></li>
+                            <li><a href="../example/css.html">CSS Examples</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Resources
+                        </div>
+                        <ul class="fItems">
+                             <li><a href="../articles.html">Articles</a></li>
+                            <li><a href="../news.html">News</a></li>
+                         </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright hidden-print">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="col-md-7">
+                        <p><i class="fa fa-copyright"></i> Aultlane 2021 | <a href="../terms/terms-and-conditions.html">Terms and Conditions</a> | <a href="../terms/privacy-policy.html"> Privacy Policy</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+
+                         <ul class="social-icons text-right">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/uppincllc" target="_blank" title="Aultlane Facebook Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-facebook"></i></span></a></li>
+								<li class="social-icons-twitter"><a href="https://twitter.com/UppInc_de" target="_blank" title="Aultlane Twitter Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-twitter"></i></span></a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window, document, 'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72653230-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+     
+    <input type="hidden" id="hdntitle" value="home" />
+    <input type="hidden" id="hdncategory" value="linq" />
+    <script src="../scripts/minifiedAultlaneb26c.js"></script>
+   
+    <script>
+          $(function () {
+              Changemenu('tutlist')
+               CheckUserLogin();
+           });
+	</script>
+    
+</body>
+
+<!-- Mirrored from www.Aultlane.com/tutorial/linq by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:26:53 GMT -->
+</html>

@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<!-- Mirrored from www.Aultlane.com/tutorial/highcharts by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:46:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HighCharts Tutorial - Aultlane</title>
+<meta name="description" content="HighCharts tutorial for beginners and experienced with examples. In highcharts tutorial we covered topics like line charts, area charts, column charts, 3d charts, speed charts, heat map charts, etc. with examples" />
+<meta name="keywords" content="highcharts, highcharts js, highcharter, highcharts example, highcharts types, highcharts tutorials, learn highcharts, highcharts javascript, datalabels highcharts, highcharts line charts, bar charts" />
+<link rel="canonical" href="highcharts.html" />
+<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+<meta property="og:title" content="HighCharts Tutorial - Aultlane" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="highcharts.html" />
+   
+   <link href="../css/minifiedstyle9b1a.css" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+    <div class="container">
+        <div class="header-logo">
+            <a href="../index.html">
+                <img alt="Aultlane Logo" height="54" data-sticky-width="82" data-sticky-height="40" src="../images/logo.png">
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="dhmenu" class="row header-border hidden-print" style="background-color: #1a1c2b;">
+            <div class="col-md-12" style="float:none">
+                <button class="btn header-btn-collapse-nav ml-0 ml-sm-3 hide-menu-btn hamburger-button" data-toggle="collapse" data-target=".header-nav-main nav" aria-expanded="true" id="btnNavMenu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <nav class="nav-main mega-menu header-navbar nav-bar-align-left hide-menu">
+                    <ul class="nav nav-pills nav-main" id="mainMenu" style="margin-bottom:-10px">
+                        <li class="dropdown" id="homelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../index.html"><i class="fa fa-home"></i> Home </a>
+                        </li>
+                        <li class="dropdown" id="tutlist">
+                            <a class="dropdown-toggle nav-bar-align-left-a" href="../tutorials.html"><i class="fa fa-tree"></i> Tutorials <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../tutorials/microsoft-technologies.html" title="Microsoft Technologies Tutorials"><i class="fa fa-windows"></i> Microsoft Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/java-programming.html" title="Java Programming Tutorials"><i class="fa fa-joomla"></i> Java Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/web-designing.html" title="Web Designing Tutorials"><i class="fa fa-paint-brush"></i> Web Designing Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/script-languages.html" title="Script Programming Tutorials"><i class="fa fa-life-ring"></i> Script Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/databases.html" title="Database Programming Tutorials"><i class="fa fa-database"></i> Database Programming Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/mobile-technologies.html" title="Mobile platform tutorials"><i class="fa fa-mobile fa-2x"></i> Mobile Technologies Tutorials</a>
+                                </li>
+                                <li>
+                                    <a href="../tutorials/other-programming-laguages.html" title="Other programming tutorials"><i class="fa fa-pagelines"></i> Other Programming Tutorials</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="examplelist">
+                            <a class="dropdown nav-bar-align-left-a" href="../examples.html"><i class="fa fa-comments-o"></i> Examples </a>
+
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="articleslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../articles.html"><i class="fa fa-file-text-o"></i> Articles </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="toolslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../tools.html"><i class="fa fa-cogs"></i> Tools </a>
+                        </li>
+                        <li class="dropdown hidden-xs hidden-sm" id="newslist">
+                            <a class="dropdown nav-bar-align-left-a" href="../news.html"><i class="fa fa-newspaper-o"></i> News</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<a href="javascript:void(0)" id="scroll_top" style="right: 15px;"><i class="fa fa-angle-up" style="margin-top: 5px;"></i></a>
+  <div id="divtopicwisedetails">
+  <section class="det_wrapper"><div class="container-fluid">
+    <div class="row"><aside class="sidebar col-md-2 hidden-print hide-menu-list" id="topicsMenu"><ul class="nav nav-list detSideNav">
+          <li>
+            <div class="text-center" style="margin-top:6%"><img src="../images/categorylogo/highcharts.png" alt="Highcharts tutorial"><h4 class="sidebarHead"><strong>Highcharts Tutorial
+                        </strong></h4>
+            </div>
+          </li>
+          <li class="menuselected"><a href="highcharts.html"><i class="fa fa-laptop"> </i><span>HighCharts Home</span></a></li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Basics</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-introduction"><i class="fa fa-hand-o-right"> </i><span>Highcharts Introduction</span></a></li>
+              <li><a href="highcharts/highcharts-setup-environment"><i class="fa fa-hand-o-right"> </i><span>Higcharts Installation</span></a></li>
+              <li><a href="highcharts/highcharts-basic-chart"><i class="fa fa-hand-o-right"> </i><span>Highcharts First Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Line Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-basic-line-chart"><i class="fa fa-hand-o-right"> </i><span>Basic Line Chart</span></a></li>
+              <li><a href="highcharts/highcharts-ajax-loaded-data-chart"><i class="fa fa-hand-o-right"> </i><span>Ajax Loaded Data Chart </span></a></li>
+              <li><a href="highcharts/highcharts-data-labels-chart"><i class="fa fa-hand-o-right"> </i><span>Data Labels Chart</span></a></li>
+              <li><a href="highcharts/highcharts-annotations-chart"><i class="fa fa-hand-o-right"> </i><span>Annotations Chart</span></a></li>
+              <li><a href="highcharts/highcharts-zoomable-time-series-chart"><i class="fa fa-hand-o-right"> </i><span>Time Series Chart</span></a></li>
+              <li><a href="highcharts/highcharts-inverted-axes-spline-chart"><i class="fa fa-hand-o-right"> </i><span>Inverted Axes Spline Chart</span></a></li>
+              <li><a href="highcharts/highcharts-symbols-spline-chart"><i class="fa fa-hand-o-right"> </i><span>Symbols Spline Chart</span></a></li>
+              <li><a href="highcharts/highcharts-plot-bands-spline-chart"><i class="fa fa-hand-o-right"> </i><span>Plot Bands Spline Chart</span></a></li>
+              <li><a href="highcharts/highcharts-time-data-chart"><i class="fa fa-hand-o-right"> </i><span>Time Data Chart</span></a></li>
+              <li><a href="highcharts/highcharts-logarithmic-axis-chart"><i class="fa fa-hand-o-right"> </i><span>Logarithmic Axis Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Area Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-basic-area-chart"><i class="fa fa-hand-o-right"> </i><span>Basic Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-negative-values-area-chart"><i class="fa fa-hand-o-right"> </i><span>Negative Values Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-stacked-area-chart"><i class="fa fa-hand-o-right"> </i><span>Stacked Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-percentage-area-chart"><i class="fa fa-hand-o-right"> </i><span>Percentage Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-missing-points-area-chart"><i class="fa fa-hand-o-right"> </i><span>Missing Points Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-inverted-axes-area-chart"><i class="fa fa-hand-o-right"> </i><span>Inverted Axes Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-area-spline-chart"><i class="fa fa-hand-o-right"> </i><span>Spline Area Chart</span></a></li>
+              <li><a href="highcharts/highcharts-area-range-chart"><i class="fa fa-hand-o-right"> </i><span>Area Range Chart</span></a></li>
+              <li><a href="highcharts/highcharts-area-range-and-line-chart"><i class="fa fa-hand-o-right"> </i><span>Area Range and Line Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Column and Bar Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-basic-bar-chart"><i class="fa fa-hand-o-right"> </i><span>Basic Bar Chart</span></a></li>
+              <li><a href="highcharts/highcharts-stacked-bar-chart"><i class="fa fa-hand-o-right"> </i><span>Stacked Bar Chart</span></a></li>
+              <li><a href="highcharts/highcharts-negative-stack-bar-chart"><i class="fa fa-hand-o-right"> </i><span>Negative Stack Bar Chart</span></a></li>
+              <li><a href="highcharts/highcharts-basic-column-chart"><i class="fa fa-hand-o-right"> </i><span>Basic Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-negative-values-column-chart"><i class="fa fa-hand-o-right"> </i><span>Negative Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-stacked-column-chart"><i class="fa fa-hand-o-right"> </i><span>Stacked Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-stacked-and-grouped-column-chart"><i class="fa fa-hand-o-right"> </i><span>Grouped Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-stacked-percentage-column-chart"><i class="fa fa-hand-o-right"> </i><span>Percentage Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-rotated-labels-column-chart"><i class="fa fa-hand-o-right"> </i><span>Rotated Labels Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-drilldown-column-chart"><i class="fa fa-hand-o-right"> </i><span>Drilldown Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-fixed-placement-columns-chart"><i class="fa fa-hand-o-right"> </i><span>Fixed Columns Chart</span></a></li>
+              <li><a href="highcharts/highcharts-show-html-table-data-in-chart"><i class="fa fa-hand-o-right"> </i><span>Chart with HTML Table Data</span></a></li>
+              <li><a href="highcharts/highcharts-column-range-chart"><i class="fa fa-hand-o-right"> </i><span>Column Range Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Pie Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-pie-with-legends-chart"><i class="fa fa-hand-o-right"> </i><span>Pie with Legends Chart</span></a></li>
+              <li><a href="highcharts/highcharts-donut-chart"><i class="fa fa-hand-o-right"> </i><span>Donut Chart</span></a></li>
+              <li><a href="highcharts/highcharts-semi-circle-donut-chart"><i class="fa fa-hand-o-right"> </i><span>Semi Circle Donut Chart</span></a></li>
+              <li><a href="highcharts/highcharts-drilldown-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Drilldown Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-gradient-fill-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Gradient Fill Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-monochrome-fill-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Monochrome Fill Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-variable-radius-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Radius Pie Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Scatter and Bubble Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-scatter-plot-chart"><i class="fa fa-hand-o-right"> </i><span>Scatter Plot Chart</span></a></li>
+              <li><a href="highcharts/highcharts-bubble-chart"><i class="fa fa-hand-o-right"> </i><span>Bubble Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-bubbles-chart"><i class="fa fa-hand-o-right"> </i><span>3D Bubbles Chart</span></a></li>
+              <li><a href="highcharts/highcharts-packed-bubble-chart"><i class="fa fa-hand-o-right"> </i><span>Packed Bubble Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Combinations</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-column-line-and-pie-chart"><i class="fa fa-hand-o-right"> </i><span>Column Line Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-dual-axes-line-and-column-chart"><i class="fa fa-hand-o-right"> </i><span>Dual Axes Line Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-multiple-axes-chart"><i class="fa fa-hand-o-right"> </i><span>Multiple Axes Chart</span></a></li>
+              <li><a href="highcharts/highcharts-scatter-with-regression-line-chart"><i class="fa fa-hand-o-right"> </i><span>Scatter with Regression Line</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts 3D Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-3d-column-chart"><i class="fa fa-hand-o-right"> </i><span>3D Column Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-column-chart-with-null-and-0-values"><i class="fa fa-hand-o-right"> </i><span>3D Column with Null Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-column-chart-with-stacking-and-grouping"><i class="fa fa-hand-o-right"> </i><span>3D Column with Stacking</span></a></li>
+              <li><a href="highcharts/highcharts-3d-pie-chart"><i class="fa fa-hand-o-right"> </i><span>3D Pie Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-donut-chart"><i class="fa fa-hand-o-right"> </i><span>3D Donut Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-scatter-chart"><i class="fa fa-hand-o-right"> </i><span>3D Scatter Chart</span></a></li>
+              <li><a href="highcharts/highcharts-3d-cylinder-chart"><i class="fa fa-hand-o-right"> </i><span>3D Cylinder Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Highcharts Gauge Charts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-gauge-series-chart"><i class="fa fa-hand-o-right"> </i><span>Gauge Series Chart</span></a></li>
+              <li><a href="highcharts/highcharts-solid-gauge-chart"><i class="fa fa-hand-o-right"> </i><span>Solid Gauge Chart</span></a></li>
+              <li><a href="highcharts/highcharts-activity-gauge-chart"><i class="fa fa-hand-o-right"> </i><span>Activity Gauge Chart</span></a></li>
+              <li><a href="highcharts/highcharts-clock-chart"><i class="fa fa-hand-o-right"> </i><span>Clock Chart</span></a></li>
+              <li><a href="highcharts/highcharts-gauge-with-dual-axes-chart"><i class="fa fa-hand-o-right"> </i><span>Gauge with Dual Axes</span></a></li>
+              <li><a href="highcharts/highcharts-vu-meter-chart"><i class="fa fa-hand-o-right"> </i><span>VU Meter Chart</span></a></li>
+              <li><a href="highcharts/highcharts-bullet-graph-chart"><i class="fa fa-hand-o-right"> </i><span>Bullet Graph Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>Heat and Tree Maps</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-heat-map-chart"><i class="fa fa-hand-o-right"> </i><span>Heat Map Chart</span></a></li>
+              <li><a href="highcharts/highcharts-tree-map-with-color-axis-chart"><i class="fa fa-hand-o-right"> </i><span>Tree Map with Color Axis</span></a></li>
+              <li><a href="highcharts/highcharts-tree-map-with-levels-chart"><i class="fa fa-hand-o-right"> </i><span>Tree Map with Levels Chart</span></a></li>
+            </ul>
+          </li>
+          <li class="menuOpen active"><a><i class="fa fa-laptop"> </i><span>More Charts in Highcharts</span></a><ul class="subList">
+              <li><a href="highcharts/highcharts-polar-chart"><i class="fa fa-hand-o-right"> </i><span>Polar Chart</span></a></li>
+              <li><a href="highcharts/highcharts-spiderweb-chart"><i class="fa fa-hand-o-right"> </i><span>Spiderweb Chart</span></a></li>
+              <li><a href="highcharts/highcharts-wind-rose-chart"><i class="fa fa-hand-o-right"> </i><span>Wind Rose Chart</span></a></li>
+              <li><a href="highcharts/highcharts-wind-barb-chart"><i class="fa fa-hand-o-right"> </i><span>Wind Barb Chart</span></a></li>
+              <li><a href="highcharts/highcharts-box-plot-chart"><i class="fa fa-hand-o-right"> </i><span>Box Plot Chart</span></a></li>
+              <li><a href="highcharts/highcharts-error-bar-chart"><i class="fa fa-hand-o-right"> </i><span>Error Bar Chart</span></a></li>
+              <li><a href="highcharts/highcharts-waterfall-chart"><i class="fa fa-hand-o-right"> </i><span>Waterfall Chart</span></a></li>
+              <li><a href="highcharts/highcharts-variwide-chart"><i class="fa fa-hand-o-right"> </i><span>Variwide Chart</span></a></li>
+              <li><a href="highcharts/highcharts-funnel-chart"><i class="fa fa-hand-o-right"> </i><span>Funnel Chart</span></a></li>
+              <li><a href="highcharts/highcharts-pyramid-chart"><i class="fa fa-hand-o-right"> </i><span>Pyramid Chart</span></a></li>
+              <li><a href="highcharts/highcharts-polygon-series-chart"><i class="fa fa-hand-o-right"> </i><span>Polygon Series Chart</span></a></li>
+              <li><a href="highcharts/highcharts-pareto-chart"><i class="fa fa-hand-o-right"> </i><span>Pareto Chart</span></a></li>
+              <li><a href="highcharts/highcharts-x-range-series-chart"><i class="fa fa-hand-o-right"> </i><span>X-range Series Chart</span></a></li>
+              <li><a href="highcharts/highcharts-word-cloud-chart"><i class="fa fa-hand-o-right"> </i><span>Word Cloud Chart</span></a></li>
+              <li><a href="highcharts/highcharts-general-drawing-chart"><i class="fa fa-hand-o-right"> </i><span>General Drawing Chart</span></a></li>
+            </ul>
+          </li>
+        </ul></aside><div class="detSection col-md-7">
+        <div class="topicHead">
+          <h1>HighCharts Tutorial</h1>
+        </div>
+        <div class="row topicHead">
+          <div class="col-md-12 col-sm-12 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="8014928417" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row topiccontent">
+          <div class="col-md-12 col-sm-12"><div id="divoverview">
+<p>Here we will learn about highcharts in-detail with examples. In highcharts tutorial, we covered topics like line charts, area charts, bar charts, pie charts, scatter charts, dynamic charts, tree maps, etc. for beginners and experienced with examples.</p>
+<h2>HighCharts Tutorial Overview</h2>
+</div>
+<p>Highcharts is a pure <a title="JavaScript Tutorial with Examples" href="javascript.html" target="_blank">JavaScript</a> charting library and it provides an easy way of adding interactive charts to our web site or web application. Highcharts is having a wide variety of charts like spline, area, areaspline, column, bar, pie, scatter, angular gauges, arearange, areasplinerange, columnrange, bubble, box plot, error bars, funnel, waterfall and polar chart types. These highcharts will work well with all desktop and mobile browsers.</p>
+<p> </p>
+<p>In HighCharts tutorial, we covered almost all the charts from highcharts those are</p>
+<p> </p>
+<ol>
+<li><a title="Line charts in highcharts with examples" href="highcharts/highcharts-basic-line-chart" target="_blank"><span style="line-height: 22px;">Line Charts</span></a></li>
+<li><a title="Bar charts in highcharts with examples" href="highcharts/highcharts-basic-bar-chart" target="_blank"><span style="line-height: 22px;">Bar Charts</span></a></li>
+<li><a title="Area charts in highcharts with examples" href="highcharts/highcharts-basic-area-chart" target="_blank"><span style="line-height: 22px;">Area Charts</span></a></li>
+<li><a title="Column charts in highcharts with examples" href="highcharts/highcharts-basic-column-chart" target="_blank"><span style="line-height: 22px;">Column Charts</span></a></li>
+<li><a title="Pie charts in highcharts with examples" href="highcharts/highcharts-pie-chart" target="_blank"><span style="line-height: 22px;">Pie Charts</span></a></li>
+<li><a title="3D charts in highcharts with Examples" href="highcharts/highcharts-3d-column-chart" target="_blank"><span style="line-height: 22px;">3D Charts</span></a></li>
+<li><span style="line-height: 22px;"><a title="Heat maps in highcharts with examples" href="highcharts/highcharts-heat-map-chart" target="_blank">Heat Maps</a> …and many more charts in Highcharts.</span></li>
+</ol>
+<div id="divaudience">
+<h2>Targeted Audience</h2>
+</div>
+<p>Highcharts tutorial is targeted for beginners as well as experienced people who are having the basic knowledge to implement applications using <a title="JavaScript Tutorial with Examples" href="javascript.html" target="_blank">JavaScript</a> and <a title="jQuery Tutorial with Examples" href="jquery.html" target="_blank">jQuery</a>. In Highcharts tutorial, we covered all the topics from basic to advanced level which will give a clear idea to use highcharts library in applications with live examples.</p>
+<div id="divprereq">
+<h2>Prerequisites</h2>
+</div>
+<p>Before proceeding with Highcharts tutorial you should have some basic knowledge to implement applications using <a title="JavaScript Tutorial with Examples" href="javascript.html" target="_blank">JavaScript</a> and <a title="jQuery Tutorial with Examples" href="jquery.html" target="_blank">jQuery</a> because highcharts is a pure JavaScript library. If you are not aware of JavaScript, jQuery topics check our <a title="JavaScript Tutorial with Examples" href="javascript.html" target="_blank">JavaScript</a> and <a title="jQuery Tutorial with Examples" href="jquery.html" target="_blank">jQuery</a> tutorials.</p></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+          <div class="col-md-6 col-sm-6 gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4761500786576152" data-ad-slot="2332995667" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script></div>
+        </div>
+        <div class="row hidden-print previous-next">
+          <div class="col-md-6 col-sm-6">
+                             
+                          </div>
+          <div class="col-md-5 col-sm-5 text-right next-class"><a class="btn btn-primary" href="highcharts/highcharts-introduction" title="Highcharts Introduction">
+                            Next <i class="fa fa-arrow-right"> </i></a>
+                           
+                        </div>
+        </div>
+      </div>
+      <div class="col-md-3 hidden-xs hidden-sm hidden-print">
+        <h3>Topics Covered</h3>
+        <hr>
+        <ul class="list list-icons  list-borders">
+          <li><a href="#divoverview" class="scroll" title="HighCharts Tutorial Overview">HighCharts Tutorial Overview</a></li>
+          <li><a href="#divaudience" class="scroll" title="HighCharts Targeted Audience">HighCharts Targeted Audience</a></li>
+          <li><a href="#divprereq" class="scroll" title="HighCharts Requirements">HighCharts Requirements</a></li>
+        </ul>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-rct" data-ad-client="ca-pub-4761500786576152" data-ad-slot="6469615448"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+        <div class="gads"><script async="" src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script><ins class="adsbygoogle tut-ad-skyscrap" data-ad-client="ca-pub-4761500786576152" data-ad-slot="3124805379"></ins><script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+      </div>
+    </div>
+  </div></section>
+  
+  </div>
+      <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <div class="fItemsHead">
+                    Contact Us
+                </div>
+                <ul class="fItems">
+                    <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> Samahni Bhimber 10040 AJK, Pakistan</li>
+                     <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:oyehamza120@gmail.com">Aultlane</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 hidden-print">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Tutorials
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../tutorials/web-designing/index.html">Web Designing Tutorials</a></li>
+                            <li><a href="../tutorials/microsoft-technologies/index.html">.NET Tutorials</a></li>
+                            <li><a href="../tutorials/java-programming/index.html">JAVA Tutorials</a></li>
+                            <li><a href="../tutorials/databases/index.html">Database Tutorials</a></li>
+                        </ul>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Company
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../about.html">About Us</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                             <li><a href="../terms/faqs.html">FAQ's</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Examples
+                        </div>
+                        <ul class="fItems">
+                            <li><a href="../example/angularjs.html">AngularJS Examples</a></li>
+                            <li><a href="../example/javascript.html">JavaScript Examples</a></li>
+                            <li><a href="../example/jquery.html">jQuery Examples</a></li>
+                            <li><a href="../example/css.html">CSS Examples</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="fItemsHead">
+                            Resources
+                        </div>
+                        <ul class="fItems">
+                             <li><a href="../articles.html">Articles</a></li>
+                            <li><a href="../news.html">News</a></li>
+                         </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright hidden-print">
+            <div class="container">
+                <div class="row">
+                
+                    <div class="col-md-7">
+                        <p><i class="fa fa-copyright"></i> Aultlane 2021 | <a href="../terms/terms-and-conditions.html">Terms and Conditions</a> | <a href="../terms/privacy-policy.html"> Privacy Policy</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+
+                         <ul class="social-icons text-right">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/uppincllc" target="_blank" title="Aultlane Facebook Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-facebook"></i></span></a></li>
+								<li class="social-icons-twitter"><a href="https://twitter.com/UppInc_de" target="_blank" title="Aultlane Twitter Profile Page" rel="noopener"><span style="padding:1%"><i class="fa fa-twitter"></i></span></a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window, document, 'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72653230-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+     
+    <input type="hidden" id="hdntitle" value="home" />
+    <input type="hidden" id="hdncategory" value="highcharts" />
+    <script src="../scripts/minifiedAultlaneb26c.js"></script>
+   
+    <script>
+          $(function () {
+              Changemenu('tutlist')
+               CheckUserLogin();
+           });
+	</script>
+    
+</body>
+
+<!-- Mirrored from www.Aultlane.com/tutorial/highcharts by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 24 Mar 2021 08:46:04 GMT -->
+</html>
